@@ -53,3 +53,25 @@ footer {
     padding: 20px;
     text-align: center;
 }
+.paypal-container {
+    text-align: center;
+    margin: 20px auto;
+    display:flex ;
+    justify-content: center;
+}
+
+.paypal-button {
+    background-color: #00457e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}

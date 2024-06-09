@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Продаж СУ-100У</title>
     <link rel="stylesheet" href="style.css">
+    <script src="button.js"></script>
 </head>
 <body>
     <header>
@@ -20,31 +21,49 @@
 
             <p>Цей екземпляр СУ-100У знаходиться в чудовому стані. Він був повністю відновлений і готовий до використання.</p>
         </section>
-
+        <div class="main">
         <section class="characteristics">
             <h2>Характеристики</h2>
             <ul>
-                <li>Калібр гармати: 122 мм</li>
+                <li>Калібр гармати: 130 мм</li>
                 <li>Боєзапас: 28 снарядів</li>
                 <li>Двигун: В-2-БТК</li>
-                <li>Потужність двигуна: 520 к.с.</li>
-                <li>Максимальна швидкість: 50 км/год</li>
-                <li>Запас ходу: 250 км</li>
+                <li>Потужність двигуна: 890 к.с.</li>
+                <li>Максимальна швидкість: 32 км/год</li>
+                <li>Запас ходу: 120 км</li>
                 <li>Вага: 44,5 т</li>
                 <li>Екіпаж: 4 людини</li>
             </ul>
         </section>
+        <section class="characteristics">
+            <li>макс нагрузка на шасі: 67.4 т </li>
+            <li>радіостанція: 71-ТК-3У</li>
+            <li>Дальність звязку: 440 м</li>
+            <li>Тип пушки: корабельна</li>
+            <li>Броня:60/20/60 мм</li>
+            <li>Віроїтність пожежі при вистрілі в мотор : 20%</li>
+            <li>Пробиття:171 - 196 мм на бронебійних, 65 на фугасних</li>
+            <li>Зброя: Б-13-С2</li>
+        </section>
+    </div>
 
         <section class="price">
             <h2>Ціна: 1 000 000 грн</h2>
         </section>
-
+        <div class="paypal-container">
+            <form action="https://www.paypal.com/us/digital-wallet/send-receive-money/send-money" method="post">
+                <input type="hidden" name="cmd" value="_sendemail">
+                <input type="hidden" name="email" value="your_paypal_email@example.com">
+                <input type="hidden" name="amount" value="10"> <input type="hidden" name="currency_code" value="UAH"> <input type="hidden" name="business" value="your_business_id"> <input type="hidden" name="notify_url" value="your_notify_url"> <input type="hidden" name="return" value="your_return_url"> <button type="submit" class="paypal-button">Сплатити через PayPal</button>
+            </form>
+        </div>
         <section class="contact">
             <h2>Зв'язатися</h2>
             <p>Телефон: +380 98 765 43 21</p>
-            <p>Email: wot@gmail.com</p>
+            <p>Email: email@example.com</p>
         </section>
     </main>
+
 
     <footer>
         <p>&copy; 2024</p>
