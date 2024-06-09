@@ -1,3 +1,6 @@
+html{
+    background-image:url("img/background.jpg");
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -73,5 +76,8 @@ footer {
 .main{
     display: flex;
     flex-direction: row;
-    width: auto;
+    width: 100%;
+}
+.images{
+    width: 580px;
 }
